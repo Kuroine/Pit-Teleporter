@@ -13,7 +13,7 @@ module.exports = function PitOfPetraxTele(dispatch) {
     })
     
     //Hooking player's coordinates
-    dispatch.hook('S_SPAWN_ME', 1, event => {
+   /* dispatch.hook('S_SPAWN_ME', 1, event => {
         //Check coord and comapre
         if(coordX == event.x && coordY == event.y)
         {
@@ -21,6 +21,7 @@ module.exports = function PitOfPetraxTele(dispatch) {
             return false;
         }
     });
+	*/
 	
 	dispatch.hook('C_CHAT', 1, (event) => {
         if (event.message.includes('!pit')) 
