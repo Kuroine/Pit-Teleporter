@@ -1,1 +1,1 @@
-# Pit-Teleporter
+Teleports you to infront of the boss in Pit of Petrax Directly.
